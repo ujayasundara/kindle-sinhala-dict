@@ -1,1 +1,71 @@
-dictionary.html\n*.azw3\n__pycache__/\n.DS_Store
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# =========================
+# Build / output files
+# =========================
+build/
+dist/
+*.egg-info/
+
+# Kindle / dictionary generated files
+*.azw
+*.azw3
+*.kfx
+*.opf
+*.log
+# ❗ .mobi is intentionally NOT ignored
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Temp / logs
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Large data / optional
+# =========================
+# Uncomment if needed
+# data/
+# *.csv
+# *.json
+# *.txt
+
+# =========================
+# Secrets / configs
+# =========================
+.env
+*.env
+
+# =========================
+# Misc
+# =========================
+*.zip
+*.tar.gz
+*.rar
